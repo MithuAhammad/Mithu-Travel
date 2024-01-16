@@ -11,24 +11,117 @@
 } */
 
 .containar {
-    margin: 50px;
+    
     border-radius: 10px;
     background-size: cover;
     color: aliceblue;
     background-image:  linear-gradient(to bottom, rgba(3, 3, 3, 0.868), rgba(99, 99, 99, 0.2)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     /* background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png); */
-    width: 1170px;
     height: 500px;
     border: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .containar h1 {
     padding-top: 30px;
     text-align: center;
-    margin: 110px 290px;
+    font-size: 64px;
+    
+
 }
 
 .containar-p{
     font-size: 16px;
-    padding: 16px 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.input-btn{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    border-radius: 8px;
+
+}
+.tour{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.tour p{
+    line-height: 25px;
+}
+.tour-img img{
+    height: 450px;
+}
+.destination{
+   text-align: center;
+    
+}
+.gellary{
+    
+    gap: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.row img{
+    width: 50%;
+}
+.img-2 img{
+    width: 35%;
+}
+select ,input{
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+}
+.wcu-containar{
+   text-align: center;
+
+}
+.service{
+    display: flex;
+    gap: 7px;
+
+}
+.service-1{
+    background-color:rgba(251, 181, 99, 0.2);
+    border: 1px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+}
+.service-2{
+    background-color: rgba(41, 206, 246, 0.2);
+    border: 1px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+}
+.price{
+    
+    background-color: rgba(233, 68, 68, 0.2);
+    border: 1px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+    margin-top: 7px;
+    
+}
+.price-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
